@@ -37,7 +37,7 @@ Service starts at `http://localhost:8080`
 ### Get Candles
 
 ```bash
-curl "http://localhost:8080/api/candles?symbol=BTC-USD&interval=1m&limit=10"
+curl "http://localhost:8080/api/candles/history?symbol=BTC-USD&interval=1m&limit=10"
 ```
 
 **Parameters:**
